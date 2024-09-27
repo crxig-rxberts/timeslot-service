@@ -2,10 +2,10 @@ const AWS = require('aws-sdk');
 const logger = require('../utils/logger');
 
 AWS.config.update({
-    region: process.env.AWS_REGION || 'dummy',
-    endpoint: process.env.AWS_ENDPOINT || 'http://localhost:8000',
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID || 'dummy',
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || 'dummy'
+  region: process.env.AWS_REGION || 'dummy',
+  endpoint: process.env.AWS_ENDPOINT || 'http://localhost:8000',
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID || 'dummy',
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || 'dummy'
 });
 
 const dynamoDB = new AWS.DynamoDB();
