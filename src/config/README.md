@@ -22,7 +22,7 @@ AWS_ENDPOINT=http://localhost:8000
 AWS_REGION=local
 AWS_ACCESS_KEY_ID=dummy
 AWS_SECRET_ACCESS_KEY=dummy
-PORT=3008
+PORT=3006
 ```
 
 ## Running Locally with Docker Compose
